@@ -2,8 +2,7 @@ import unittest
 from stacks import stacks_using_array as stack
 
 
-class StackUsingArrayTest(unittest.TestCase):
-
+class StackUsingLinkedListTest(unittest.TestCase):
     @classmethod
     def setUp(cls):
         stack.push(1)

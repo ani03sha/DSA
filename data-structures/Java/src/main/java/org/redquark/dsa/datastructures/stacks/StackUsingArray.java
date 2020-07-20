@@ -9,15 +9,15 @@ public class StackUsingArray implements Stack {
 
     // Maximum size of the stack
     private static final int SIZE = 10;
-    // Internal array that will store the elements
-    private final int[] a = new int[SIZE];
     // Top of the stack
     private int top;
+    // Internal array that will store the elements
+    private final int[] a = new int[SIZE];
 
     /**
      * Default constructor
      */
-    StackUsingArray() {
+    public StackUsingArray() {
         // Initialize top to -1 which is an invalid index for array
         // thus, it determines that the stack is empty
         top = -1;
